@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+.tab-pane {
+    display: none;
+}
