@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <header>Form</header>
+    <div class="container">
+    <nav>
+		<a href="./index.html">Home</a>
+		<a href="./lists.html">Lists</a>
+		<a href="./table.html">Table</a>
+		<a href="./form.html">Form</a>
+    </nav>
+    <main class="centered">
+        <form action="/submission.php">
+            <fieldset>
+            <legend>Customer Information</legend>
+            <div class="vselectors">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone"><br>
+            </div>
+            <label for="checkbox">Contact Method</label>
+            <div class="selectors">
+                <!--This div allows the selectors to be formatted properly by using another flex container-->
+            <label for="contact_phone">Phone</label>
+            <input type="radio" id="contact_phone" name="contact" value="phone">
+            <label for="contact_email">Email</label>
+            <input type="radio" id="contact_email" name="contact" value="email">
+            </div>
+            <fieldset>
+            <legend>Appointment Information</legend>
+            <label for="time">Time:</label> 
+            <select id="time" name="time">
+                <option value="null">Choose a time</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+                <option value="13">13:00</option>
+                <option value="14">14:00</option>
+            </select>  
+            <div class="selectors">
+            <label for="oil">Oil change</label>
+            <input type="checkbox" id="oil" name="oil" value="oil"><br>
+            <label for="tires">Tires</label>
+            <input type="checkbox" id="tires" name="tires" value="tires"><br>
+            <label for="wipers">Change wipers</label>
+            <input type="checkbox" id="wipers" name="wipers" value="wipers"><br>
+            <label for="fluids">Check Fluids</label>
+            <input type="checkbox" id="fluids" name="fluids" value="fluids"><br>
+            <label for="lights">Check Lights</label>
+            <input type="checkbox" id="lights" name="lights" value="lights"><br>
+            </div>
+            </fieldset>
+            <div class="container form_controls">
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset"> 
+            </div>
+        </form>
+    </main>
+    </div>
+    <footer>Made by Harrison</footer> 
+  </body>
+</html> 

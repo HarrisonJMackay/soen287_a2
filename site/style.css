@@ -1,0 +1,165 @@
+* {
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #006600;
+	font-size: 4rem;
+	color: white;
+	padding: 0.2rem;
+	text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 99vh;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+nav a{
+    padding: 0.5rem;
+}
+
+
+nav a:hover{
+    color: orange;
+}
+
+nav a:active{
+    color: red;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+	padding: 0.1rem;
+	text-align: center;
+}
+
+dl {
+    margin: auto;
+} 
+
+table, th, td{ 
+    border-collapse: collapse;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+label {
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+
+input {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+input[type=submit] {
+    background-color: forestgreen;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+} 
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+input[type=reset] {
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+} 
+
+input[type=reset]:hover {
+    background-color: darkred;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+} 
+
+@media (width <= 700px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    } 
+}
+
+.selectors {
+   display: flex;
+   padding: 1rem;
+}
+
+.vselectors {
+   display: flex;
+   flex-direction: column;
+   padding: 1rem;
+}
+
+.form_controls {
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.grid-box {
+    background-color: lightblue;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 6px grey;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

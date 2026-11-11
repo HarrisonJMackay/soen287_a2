@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="part_a.css">
+    <title>Assignment 2 - Ex1</title>
+    <script>
+        function changeIt(){
+            const para = document.getElementById('change');
+            para.innerHTML = "Paragraph changed!";
+        }
+    </script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+            <!-- Ex 1 -->
+            <div id='ex1'>
+            <h2>Event Handler</h2>
+            <p id="change">This will change!</p>
+            <button onclick="changeIt()">Click me!</button>
+            </div> 
+    </main>
+    <footer></footer>
+  </body>
+</html>

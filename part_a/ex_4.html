@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="part_a.css">
+    <title>Assignment 2 - Ex4</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+            <!-- Ex 4 -->
+            <div id='ex4' >
+             <h1>Order Form</h1>
+ 
+              <form id="orderForm" novalidate>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Item</th>
+                      <th>Price</th>
+                      <th>Quantity</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><label for="qty-notebook">Notebook</label></td>
+                      <td>$4.50</td>
+                      <td><input type="text" id="qty-notebook" name="notebook" value="0" data-name="Notebook" data-price="4.50"></td>
+                    </tr>
+                    <tr>
+                      <td><label for="qty-pens">Pen pack</label></td>
+                      <td>$2.25</td>
+                      <td><input type="text" id="qty-pens" name="pens" value="0" data-name="Pen pack" data-price="2.25"></td>
+                    </tr>
+                    <tr>
+                      <td><label for="qty-backpack">Backpack</label></td>
+                      <td>$29.99</td>
+                      <td><input type="text" id="qty-backpack" name="backpack" value="0" data-name="Backpack" data-price="29.99"></td>
+                    </tr>
+                    <tr>
+                      <td><label for="qty-bottle">Water bottle</label></td>
+                      <td>$12.00</td>
+                      <td><input type="text" id="qty-bottle" name="bottle" value="0" data-name="Water bottle" data-price="12.00"></td>
+                    </tr>
+                  </tbody>
+                </table>
+             
+                <button type="submit" id="placeOrder">Place Order</button>
+              </form>
+            </div> 
+    </main>
+    <footer></footer>
+  </body>
+  <script src="part_a.js"></script>
+</html>

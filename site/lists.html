@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <header>Lists</header>
+    <div class="container">
+    <!--this div allows the main content of the site to be contained in a flex to make the layout easier-->
+        <nav>
+            <!--Used nav here to mark it as main nav for the site-->
+            <a href="./index.html">Home</a>
+            <a href="./lists.html">Lists</a>
+            <a href="./table.html">Table</a>
+            <a href="./form.html">Form</a>
+        </nav>
+
+        <main class="centered">
+            <!--Here is use the definition list to help define the ordered an unordered lists while also nesting them inside the definition list, they can be further nested if desired.-->         
+            <dl>
+                <dt>Unordered List</dt>
+                <dd>
+                    <ul>
+                        <li>Item 1</li>	
+                        <li>Item 2</li>	
+                        <li>Item 3</li>	
+                    </ul>
+                </dd>
+                <dt>Ordered List</dt>
+                <dd>
+                    <ol>
+                        <li>Item 1</li>	
+                        <li>Item 2</li>	
+                        <li>Item 3</li>	
+                    </ol>
+                </dd>
+            </dl>
+        </main>
+    </div>
+    <footer>Made by Harrison</footer>
+  </body>
+</html>
