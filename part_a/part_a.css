@@ -1,13 +1,13 @@
-nav {
+.slideshow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideshowButtons {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.tab-pane.active {
-    display: block;
-}
-
-.tab-pane {
-    display: none;
-}
